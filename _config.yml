@@ -1,6 +1,6 @@
-title: Sam' Blog
+title: Sam's Blog
 author:
-  name: Sam
+  name: Sam Moore
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
