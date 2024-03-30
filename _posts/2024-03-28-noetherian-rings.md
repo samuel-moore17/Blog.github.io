@@ -87,7 +87,7 @@ We first need to define one of the terms used above:
 
 _Proof_
 
-(1). Given \\(M\\) a module, pick an embedding \\(M \subset I\\) into an injective module. Consider the poset of modules \\(M'\\) with \\(M \subset M' \subset I) such that \\(M \to M'\\) is essential. A standard Zorn's argument shows that this poset has a maximal element \\(E\\). 
+(1). Given \\(M\\) a module, pick an embedding \\(M \subset I\\) into an injective module. Consider the poset of modules \\(M'\\) with \\(M \subset M' \subset I\\) such that \\(M \to M'\\) is essential. A standard Zorn's argument shows that this poset has a maximal element \\(E\\). 
 
 We want to show this is injective and will use the observation that \\(E\\) has no proper essential extensions. Any such module is injective. Indeed embed \\(E\\) into an injective module \\(E'\\) and suppose \\(E \to E'\\) is not an iso. Then \\(E \subset E'\\) is not essential, so there's \\(N \subset E'\\) such that \\(N \cap E = 0\\). By another Zorn's argument, assume \\(N\\) is maximal with respect to this property. This is equivalent to saying \\(E \hookrightarrow E'/N\\) is essential and hence an isomorphism. This means \\(E' = E \oplus N\\) and thus \\(E\\) is a direct summand of an injective module - and so injective in its own right.
 
