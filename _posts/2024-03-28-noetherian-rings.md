@@ -48,6 +48,8 @@ A good place to start is this. Suppose \\(M\\) is an injective \\(A\\)-module (\
 
 **Definition**: An inclusion \\(V \subset W\\) of submodules is called an _essential_ extension if every non-zero submodule \\(W' \subset W\\) intersects \\(V\\) non-trivial.
 
+Analogously one defines essential submodules, monomorphisms, etc.
+
 _Example_: For any domain \\(A\\), \\(A\\) is an essential \\(A\\)-submodule of \\(\mathrm{Frac}(A)\\). Other the other hand, \\(\mathbf Q\\) is not an essential \\(\mathbf Q\\)-submodule of \\(\mathbf Q(\sqrt{2}\\). 
 
 Why is \\(F\\) an essential submodule of \\(M\\)? Well suppose \\( \\mathscr B = \\{\omega_i\\}\\) is a basis of \\(F\\) and \\(m \in M \setminus \\{0\\}\\). By definition of \\(F\\), \\( \mathscr B \cup \\{m\\}\\) is linearly dependent. So there's \\(a \in A\\) such that \\(am\\) is a non-trivial linear combination of elements of \\(\mathscr B\\), and thus a non-zero element of \\(A.m \cap F\\).
@@ -67,15 +69,29 @@ We can now try an alternative approach, which generalises slightly further. A ni
 
 The theorem I want to show is this:
 
-**Theorem**: Let \\(A\\) be a commutatie Noetherian ring.
+**Theorem**: Let \\(A\\) be a commutative Noetherian ring.
 
 (1) Any injective module over \\(A\\) is a direct sum of _indecomposable_ injective modules.
 
 (2) Any indecomposable injective \\(A\\)-module is the injective hull of the residue field \\(\kappa(\mathfrak p)\\) of some prime \\(\mathfrak p \subset A\\).
 
-We'll explain what these words mean etc.
+We first need to define one of the terms used above:
 
-**Definition**: [Injective hull]
+**Definition**: Let \\(A\\) be a ring and \\(M\\) an \\(A\\)-module. Then an _injective hull_ of \\(M\\) is an injective \\(A\\)-module \\(N\\) equipped with a essential mono \\(M \hookrightarrow N\\).
+
+**Proposition:** Fix a ring \\(A\\). 
+
+(1) Every left \\(A\\)-module \\(M\\) has an injective hull.
+
+(2) Any two injective hulls of \\(M\\) are isomorphic.
+
+_Proof_
+
+(1). Given \\(M\\) a module, pick an embedding \\(M \subset I\\) into an injective module. Consider the poset of modules \\(M'\\) with \\(M \subset M' \subset I) such that \\(M \to M'\\) is essential. A standard Zorn's argument shows that this poset has a maximal element \\(E\\). 
+
+We want to show this is injective and will use the observation that \\(E\\) has no proper essential extensions. Any such module is injective. Indeed embed \\(E\\) into an injective module \\(E'\\) and suppose \\(E \to E'\\) is not an iso. Then \\(E \subset E'\\) is not essential, so there's \\(N \subset E'\\) such that \\(N \cap E = 0\\). By another Zorn's argument, assume \\(N\\) is maximal with respect to this property. This is equivalent to saying \\(E \hookrightarrow E'/N\\) is essential and hence an isomorphism. This means \\(E' = E \oplus N\\) and thus \\(E\\) is a direct summand of an injective module - and so injective in its own right.
+
+(2) Suppose we pick _two_ injective hulls \\(M \hookrightarrow E\\) and \\(M \hookrightarrow E'\\). Injectivity of \\(E,E'\\) gives us a map \\(\varphi: E \to E'\\) compatible with the embeddings of \\(M\\). But, being an extension of \\(M \hookrightarrow E'\\), we know \\(\ker \varphi \cap M = 0\\) and thus \\(\ker \varphi = 0 \\) since \\(M \hookrightarrow E\\) is essential. So we may view the situation as \\(M \subset E \subset E'\\). Now \\(E\\) is a direct summand of \\(E'\\), which contradicts the fact \\(M \to E'\\) is essential unless \(E = E'\\) \\(\blacksquare\\).
 
 Now suppose \\(M\\) is an indecomposable, injective \\(A\\)-module.
 
