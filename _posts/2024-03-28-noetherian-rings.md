@@ -64,7 +64,7 @@ Hence if we combine the previous two bits, we see any injective \\(\mathbf C[x]/
 
 In fact, more generally, we have seen that every injective \\(A\\)-module is free if \\(A\\) is self-injective and Noetherian. Conversely, if every injective \\(A\\)-module is free, then \\(A\\) is self-injective, being a summand of an injective module. 
 
-# A classification theorem
+## A classification theorem
 We can now try an alternative approach, which generalises slightly further. A nice reference for this is Stacks project (3.47.5), though my proofs are a little different.
 
 The theorem I want to show is this:
