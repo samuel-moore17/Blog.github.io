@@ -10,7 +10,7 @@ _Problem:_ Show that a \\( A:= \mathbf C[x]/x^2\\)-module is injective iff it is
 
 There are a few ways to do this - for example, one can view a \\(\mathbf C[x]/x^2\\)-module as a \\(\mathbf C\\)-vector space equipped with a square-zero endomorphism. But if we try to find a slightly less _ad-hoc_ approach, we can learn more about Noetherian rings and injective modules in general.
 
-# The 'Free implies injective' direction
+## The 'Free implies injective' direction
 
 The first thing to check, of course, is that \\(\mathbf C[x]/x^2\\) is self-injective (that is, injective regarded as a module over itself). This isn't bad if we recall Baer's criterion, and that \\(\mathbf C[x]/x^2\\) has only one non-trivial, proper ideal, namely \\(x\mathbf C[x]/x^2\\). All we need to do, then, is show that any map \\(x \mathbf C[x]/x^2 \to \mathbf C[x]/x^2\\) extends to \\(\mathbf C[x]/x^2\\), but all such maps are just multiplication by a scalar, so this is obvious.
 
@@ -38,7 +38,7 @@ We can then extend \\( J \to \bigoplus_n V_n\\) to \\(A\\). But \\(1\\) - and he
 
 In particular, (1) \\(\to\\) (3) finishes off one direction of our original statement.
 
-# 'Injective implies free'
+## 'Injective implies free'
 
 There are actually a couple of ways to go about this bit which connect to more general theory.
 
