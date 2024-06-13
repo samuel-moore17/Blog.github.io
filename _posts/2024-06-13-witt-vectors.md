@@ -14,7 +14,7 @@ Well we can begin with a study of (\O\\) in mixed characteristic [strict p-ring?
 
 I'll take a slow approach to this. Note if \\(\omega\\) is any multiplicative section then \\(\omega(\lambda)= \omega(\lambda^{1/p^n})^{p^n}\\). This is actually enough to uniquely determine \\(\omega\\): any two representatives of \\(\lambda^{1/p^n}\\) differ by an element of \\(\mathfrak m\\), but once we take \\(p^n\\)th powers, this difference `shrinks'. More precisely:
 
-**Proposition 2**: Let \\(U_n=U_n(\lambda)\\) be the set \\(\{x^{p^n} \mid x \in q^{-1}(\lambda^{1/p^n})\}). Then \\(U_n\\) has diameter \\(\le \mathfrak m^n\\). 
+**Proposition 2**: Let \\(U_n=U_n(\lambda)\\) be the set \\(\\{x^{p^n} \mid x \in q^{-1}(\lambda^{1/p^n})\\}\\). Then \\(U_n\\) has diameter \\(\le \mathfrak m^n\\). 
 
 This follows from the elementary
 
@@ -22,7 +22,7 @@ This follows from the elementary
 
 _Proof_: Note that \\(a^p-b^p = (a-b)\cdot \sum_{i=0}^{p-1} a^i b^{p-1-i}=: (a-b)c\\), so we just need to show that \\(c\in \mathfrak m\\). And \\(c \equiv \sum_{i=0}^{p-1}a^i a^{p-1-i}= pa^{p-1} \equiv 0 \mod \mathfrak m\\) since \\(p \in \mathfrak m\\). \\(\square\\).
 
-Now \\(\omega(\lambda)\\) belongs to \\(\bigcap_{n=0}^{\infty} U_n(\lambda)\\). But this intersection is a singleton by separatedness (?) and completeness, which means that \\(\omega\\) is uniquely determined and in fact we can define it by \\(\{\omega(\lambda)\}=\bigcap_{n=0}^{\infty}U_n(\lambda)\\).
+Now \\(\omega(\lambda)\\) belongs to \\(\bigcap_{n=0}^{\infty} U_n(\lambda)\\). But this intersection is a singleton by separatedness (?) and completeness, which means that \\(\omega\\) is uniquely determined and in fact we can _define_ it by \\(\\{\omega(\lambda)\}=\bigcap_{n=0}^{\infty}U_n(\lambda)\\).
 
 There's an easy characterisation of the image of \\(\omega\\): it is the set \\(S\\) of elements which are \\(p^n\\)th powers for all \\(n\\). Clearly the image is contained in \\(S\\), and for the other direction, note that if \\(x = y^{p^n}\\) then \\(x \in U_n(q(x))\\), and if this holds for all \\(n\\) then \\(x \in \bigcap U_n(q(x)) = \{\omega(q(x))\}\\). 
 
