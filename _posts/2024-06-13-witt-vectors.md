@@ -30,7 +30,7 @@ Given this characterisation, it follows that \\(\omega(\lambda\mu) = \omega(\lam
 
 **Remark** When \\(k=\mathbf F_p\\), the Frobenius is the identity, so one sees easier formulae in that case, such as \\(\omega(x)=\lim_{n \to \infty} x^{p^n}\\).
 
-**Example** Consider the case of the p-adics \\(\mathbf Z_p\\) with residue field \\(\mathbf F_p\). Then \\(\omega\\) provides a (multiplicative) bijection between \\(\mathbf F_p^\times\\) and the \\((p-1)\\)st roots of unity in \\(\mathbf Z_p\\).
+**Example** Consider the case of the p-adics \\(\mathbf Z_p\\) with residue field \\(\mathbf F_p\\). Then \\(\omega\\) provides a (multiplicative) bijection between \\(\mathbf F_p^\times\\) and the \\((p-1)\\)st roots of unity in \\(\mathbf Z_p\\).
 
 ## Witt vectors
 
@@ -52,7 +52,7 @@ _Proof_ From (*) we see that if \\((u_k)_{k=0}^{\infty}=\Phi_A(a)\\) then each \
 
 **Proposition** Suppose \\(A,\sigma\\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
 1) There is \\(a_n\\) with \\(u_n=\Phi_{n}(a_0,\dots,a_n)\\)
-2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n)
+2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n\\)
 
 Hence \\(\Phi\\)'s image is the set of sequences \\((u_n)_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
 
@@ -66,16 +66,14 @@ We can use this `universal' case to define addition, multiplication and taking i
 
 _Proof_: This is a clever use of functoriality and `universal cases'. Let \\(B:=\mathbf Z[(X_a)_{a \in A}]\\). As usual, this has a lift of Frobenius \\(\sigma\\) and \\(p\\) is not a zero divisor, but there is also a natural surjection \\(\varphi:B \to A\\).
 
-Now \\(\Phi_B:W(B) \to B^\mathbf N\\) is injective and its image is a subring of \\(B^\mathbf N\\). Corestricting \\(\Phi_B\\) to its image, we see that \\(W(B)\\) actually has the addition, multiplicatio etc. transferred from \\(B^\mathbf N\\) via the bijection \\(\Phi_B\\), and so forms a ring itself.
-
-As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\) via \\(W(\varphi))\\). \\(\square\\).
+Now \\(\Phi_B:W(B) \to B^\mathbf N\\) is injective and its image is a subring of \\(B^\mathbf N\\). Corestricting \\(\Phi_B\\) to its image, we see that \\(W(B)\\) actually has the operations and identities transferred from \\(B^\mathbf N\\) along \\(\Phi_B\\), and so forms a ring itself.As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\) via \\(W(\varphi))\\). \\(\square\\).
 
 
 ### Frobenius and Verschiebung
 
 Thus far we've mostly neglected a piece of extra structure. We want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\) and another operator \\(V\\) known as the Verschiebung (German: \\(\simeq\\) displace, shift).
 
-These formulae are slightly odd. We have \\(f_A:A^\mathbf N \to A^\mathbf N\\) which is a left shift \\((a_i)_{i=0}^{\infty} \mapsto (a_{i+1})_{i=0}^{\infty}\\). Again this gives \\(F\\) with \\(\Phi_A F_A = f_A \Phi_A)\\).
+These formulae are slightly odd. We have \\(f_A:A^\mathbf N \to A^\mathbf N\\) which is a left shift. Again this gives \\(F\\) with \\(\Phi_A F_A = f_A \Phi_A)\\).
 
 **Proposition** \\(F_A\\) is a lift of Frobenius.
 
