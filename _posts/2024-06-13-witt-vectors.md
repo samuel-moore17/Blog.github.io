@@ -73,17 +73,23 @@ Now \\(\Phi_B:W(B) \to B^\mathbf N\\) is injective and its image is a subring of
 
 ### Frobenius and Verschiebung
 
-Thus far we've mostly neglected a piece of extra structure. We want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\) and another operator \\(V\\) known as the Verschiebung (German: \\(\simeq\\) displace, shift).
+Thus far we've mostly neglected two pieces of extra structure. 
 
-These formulae are slightly odd. We have \\(f_A:A^\mathbf N \to A^\mathbf N\\) which is a left shift. Again this gives \\(F\\) with \\(\Phi_A F_A = f_A \Phi_A\\).
+We first want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\). We have \\(f_A:A^\mathbf N \to A^\mathbf N\\) which is a left shift. Again this gives \\(F\\) with \\(\Phi_A F_A = f_A \Phi_A\\).
 
 **Proposition 10** \\(F_A\\) is a lift of Frobenius.
 
-We omit the proof as it is similar: reduce to polynomial rings and check \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\). \\(\square\\).
+We omit the proof as it is similar to previous arguments: reduce to polynomial rings and check that \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\).
+
+So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism \\(W(A)\\) sending \\((a_i)_{i=0}^{\infty}\\) to \\((0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that [...]
+
+We can also see that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n\in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
 
 ### A filtration and finite length vectors.
 
-The Witt vectors have a natural filtration: let \\(V_n\\) be the set of sequences of the form \\((0,\dots,0,a_n, a_{n+1},\dots)\\). Then \\(W(A)=V_0 \supseteq V_1 \supseteq \dots \\). One can check these are ideals of \\(W(A)\\).
+The Witt vectors have a natural filtration: let \\(V_n\\) be the set of sequences of the form \\((0,\dots,0,a_n, a_{n+1},\dots)\\). Then \\((V_n)_{n \in \mathbf N}\) is a descending filtration by ideals with \\(\bigcap_{n=0}^{\infty} V_n=0\\) and \\(V_0=W(A)\\).
+
+Note that \\(V_n=V^n(A)\\) where \\(V\\) is the Verschiebung.
 
 **Proposition 11** (Teichmüller lifts, take II)
 
@@ -99,7 +105,29 @@ After one checks that \\(a_0,\dots,a_{n-1},0,\dots) + (0,\dots,0,a_n,a_{n+1},\do
 
 If \\(p=0\\) in \\(A\\), everything simplifies a lot. 
 
+**Proposition** Let \\(A\\) be a ring wherein \\(p=0\\). Then \\(F(\mathbf a) = (a_i^{p^i})_{i=0}^{\infty})\\) and \\(VF=FV=[p]\\)
+
+_Proof_ The first part is equivalent to saying \\(F_n \equiv X_n^p \mod p\\), which [...] Using this, second part is easy to see. \\(\square\\)
+
+Let's now do important stuff...
+
+**Proposition** Let \\(A\\) be a ring with \\(p=0\\).
+
+1) \\(V_1(A)^k=p^{k-1}V_1(A)\\)
+
+2) The \\(V_1(A)\\)-adic and \\(p\\)-adic topologies coincide, and \\(W(A)\\) is coomplete and separated.
+
+_Proof_: 1) This foollowsf fromo \\(V_1(A)^2=p.V_1(A)\\).
+
+2) Note \\(p.W(A)=VF(W(A)) \subseteq V(W(A))=V_1(A)\\), so \\(p^k.W(A)\subseteq p^{k-1}.V_1(A)}=(V_1)^k\\), whilst conversely [...] 
+
 [...]
+
+
+
+
+
+
 
 ### `Universal' property
 
