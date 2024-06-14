@@ -38,7 +38,7 @@ Let me now move onto a more general and related construction - the formation of 
 
 We'll set up \\(W(A)\\). I'd like to explain the strategy of proof.
 
-**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \\(a = \\(a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\) we will write \\(\Phi(\mathbf a)\\) for \\(Phi(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
+**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \\(\mathbf a = (a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\), we will write \\(\Phi(\mathbf a)\\) for \\(Phi(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
 
 I find these formulae a little hard to motivate. One thing to note, though, is that if \\(p=0\\) in \\(A\\), then the above map is simply \\((a_i)_{i=0}^{\infty} \mapsto (a_0,a_0^p,a_0^{p^2},\dots).\\). So \\(\Phi_A\\) should roughly turn pth powers into shifts. We'll actually find a lift of Frobenius \\(F\\) on \\(W(A)\\) such that \\(\Phi_A F = f_A \Phi_A\\) where \\(f_A\\) is a left shift.
 
@@ -60,7 +60,7 @@ _Proof_ Let's use the above observation. Existence of \\(a_n\\) is therefore equ
 
 Now the above is very useful. Take \\(A = \mathbf Z[\mathbf X,\mathbf Y]=\mathbf Z[X_i,Y_i \mid i \in \mathbf N]\\), which has a lift of Frobenius determined by \\(X_i \mapsto X_i^p, Y_i \mapsto Y_i^p\\). The elements \\(\Phi_A(\mathbf X)+\Phi_A(\mathbf Y), \Phi_A(\mathbf X)\Phi_A(Y)\\) lie in \\(\Phi_A(A)\\) and so we find (unique!) polynomials \\((S_n),(P_n)\\) with \\(\Phi_A(S)=\Phi_A(\mathbf X) + \Phi_A(\mathbf Y)\\) and \\(\Phi_A(P)=\Phi_A(\mathbf X)\Phi_A(\mathbf Y)\\). Arguing similarly for \\(A=\mathbf Z[\mathbf X]\\) we find \\(I=(I_n)\\) with \\(\Phi_A(\mathbf I)=-\Phi_A(\mathbf X)\\).
 
-We can use this `universal' case to define addition, multiplication and taking inverses on \\(W(A)\\) for _arbitrary_ \\(A\\): put \\(a+_{W(A)}b= S(\mathbf a,\mathbf b)\\) and \\(a \cdot_{W(A)}b= P(\mathbf a, \mathbf b)\\). [...]
+We can use this `universal' case to define addition, multiplication and taking inverses on \\(W(A)\\) for _arbitrary_ \\(A\\): put \\(a{+}_{W(A)}b= S(\mathbf a,\mathbf b)\\) and \\(a \cdot_{W(A)}b= P(\mathbf a, \mathbf b)\\). [...]
 
 **Theorem** The binary operations defined above provide \\(W(A)\\) with a ring structure such that \\(\Phi_A: W(A) \to A^\mathbf N\\) is a homomorphism.
 
@@ -97,7 +97,7 @@ After one checks that \\(a_0,\dots,a_{n-1},0,\dots) + (0,\dots,0,a_n,a_{n+1},\do
 
 ### `Universal' property
 
-One thing is: fix \\(A\\). Suppoose we have a ring map \\(\varphi:B \to A\\) where \\(B\\) has a lift of Frobenius. If \\(B\\) is torsiono-free, then there is a unique lift of \\(\varphi\\) along the projection \\(W(A)\to A\\) which commutes with the Frobenius lifts.
+One thing is: fix \\(A\\). Suppoose we have a ring map \\(\varphi:B \to A\\) where \\(B\\) has a lift of Frobenius. If \\(B\\) is torsion-free, then there is a unique lift of \\(\varphi\\) along the projection \\(W(A)\to A\\) which commutes with the Frobenius lifts.
 
 
 
