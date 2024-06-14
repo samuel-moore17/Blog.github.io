@@ -38,7 +38,7 @@ Let me now move onto a more general and related construction - the formation of 
 
 We'll set up \\(W(A)\\). I'd like to explain the strategy of proof.
 
-**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \\(a = \\(a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\) we will write \\(\Phi(\mathbf a)\\) for \\(Phi(a_0,\dots,a_n)\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
+**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \\(a = \\(a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\) we will write \\(\Phi(\mathbf a)\\) for \\(Phi(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
 
 I find these formulae a little hard to motivate. One thing to note, though, is that if \\(p=0\\) in \\(A\\), then the above map is simply \\((a_i)_{i=0}^{\infty} \mapsto (a_0,a_0^p,a_0^{p^2},\dots).\\). So \\(\Phi_A\\) should roughly turn pth powers into shifts. We'll actually find a lift of Frobenius \\(F\\) on \\(W(A)\\) such that \\(\Phi_A F = f_A \Phi_A\\) where \\(f_A\\) is a left shift.
 
@@ -80,4 +80,29 @@ These formulae are slightly odd. We have \\(f_A:A^\mathbf N \to A^\mathbf N\\) w
 **Proposition** \\(F_A\\) is a lift of Frobenius.
 
 We omit the proof as it is similar: reduce to polynomial rings and check \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\). \\(\square\\).
+
+### A filtration and finite length vectors.
+
+The Witt vectors have a natural filtration: let \\(V_n\\) be the set of sequences of the form \\((0,\dots,0,a_n, a_{n+1},\dots)\\). Then \\(W(A)=V_0 \supseteq V_1 \supseteq \dots \\). One can check these are ideals of \\(W(A)\\).
+
+**Proposition** (Teichmüller lifts, take II)
+
+Let \\(\tau:A \to W(A)\\) be the map sending \\(a \mapsto (a,0,0,\dots)\\). This map is multiplicative and \\(\sum_{n=0}^{\infty} V^n(\tau(x_n)) = x\\).
+
+_Proof_ [...]
+
+After one checks that \\(a_0,\dots,a_{n-1},0,\dots) + (0,\dots,0,a_n,a_{n+1},\dots)=(a_0,\dots,a_n,a_{n+1},\dots)\\), it follows that \\(W_n(A):=W(A)/V_n\\) is canonically in bijection with the set of sequences \\([a_0,\dots,a_{n-1}]\\) in \\(A^\mathbf N\\).
+
+[...]
+
+### Characteristic \\(p\\)
+
+### `Universal' property
+
+One thing is: fix \\(A\\). Suppoose we have a ring map \\(\varphi:B \to A\\) where \\(B\\) has a lift of Frobenius. If \\(B\\) is torsiono-free, then there is a unique lift of \\(\varphi\\) along the projection \\(W(A)\to A\\) which commutes with the Frobenius lifts.
+
+
+
+
+
 
