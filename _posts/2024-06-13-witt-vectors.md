@@ -8,7 +8,7 @@ Today I'd like to discuss Witt vectors. Fix throughout a prime \\(p\\).
 
 ## Teichmüller lifts
 
-Well we can begin with a study of \\(\O\\) in mixed characteristic [strict p-ring?]. Say \\(O\\) with residue field \\(k\\) of characteristic \\(p\\). Then get following:
+Let us begin with something less fancy. Let \\(O\\) be a complete DVR with residue field \\(k\\) of characteristic \\(p\\). Then:
 
 **Proposition 1**: There exists a unique multiplicative section \\(\omega:k \to O\\) of the natural projection. 
 
@@ -48,7 +48,7 @@ Note that \\(Phi_n(a_0,\dots,a_{n-1},X_n) =\Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p})) 
 
 **Proposition** \\(\Phi_A\\) is injective if \\(p\\) is not a zero divisor in \\(A\\)
 
-_Proof_ From (*) we see that if \\(\(u_k)_{k=0}^{\infty}=\Phi_A(a)\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
+_Proof_ From (*) we see that if \\((u_k)_{k=0}^{\infty}=\Phi_A(a)\\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
 
 **Proposition** Suppose \\(A,\sigma\\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
 1) There is \\(a_n\\) with \\(u_n=\Phi_{n}(a_0,\dots,a_n)\\)
@@ -68,7 +68,7 @@ _Proof_: This is a clever use of functoriality and `universal cases'. Let \\(B:=
 
 Now \\(\Phi_B:W(B) \to B^\mathbf N\\) is injective and its image is a subring of \\(B^\mathbf N\\). Corestricting \\(\Phi_B\\) to its image, we see that \\(W(B)\\) actually has the addition, multiplicatio etc. transferred from \\(B^\mathbf N\\) via the bijection \\(\Phi_B\\), and so forms a ring itself.
 
-As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\). \\(\square\\).
+As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\) via \\(W(\varphi))\\). \\(\square\\).
 
 
 ### Frobenius and Verschiebung
