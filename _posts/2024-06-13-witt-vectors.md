@@ -30,7 +30,7 @@ Given this characterisation, it follows that \\(\omega(\lambda\mu) = \omega(\lam
 
 **Remark** When \\(k=\mathbf F_p\\), the Frobenius is the identity, so one sees easier formulae in that case, such as \\(\omega(x)=\lim_{n \to \infty} x^{p^n}\\).
 
-**Example** Consider the case of the p-adics \(\mathbf Z_p\) with residue field \(\mathbf F_p\). Then \(\omega\) provides a (multiplicative) bijection between \(\mathbf F_p^\times\) and the \((p-1)\)st roots of unity in \(\mathbf Z_p\).
+**Example** Consider the case of the p-adics \\(\mathbf Z_p\\) with residue field \\(\mathbf F_p\). Then \\(\omega\\) provides a (multiplicative) bijection between \\(\mathbf F_p^\times\\) and the \\((p-1)\\)st roots of unity in \\(\mathbf Z_p\\).
 
 ## Witt vectors
 
@@ -38,11 +38,11 @@ Let me now move onto a more general and related construction - the formation of 
 
 We'll set up \\(W(A)\\). I'd like to explain the strategy of proof.
 
-**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \(a = \(a_0,\dots,a_n)\) or some sequence \((a_0,a_1,\dots)\) we will write \(\Phi(\mathbf a)\) for \(Phi(a_0,\dots,a_n)\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
+**Definition** Define \\(\Phi_n \in \mathbf Z[X_0,\dots,X_n]\\) by \\(\Phi_n(a_0,\dots,a_n)=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}}\\). Slightly abusively, if \\(a = \\(a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\) we will write \\(\Phi(\mathbf a)\\) for \\(Phi(a_0,\dots,a_n)\). We can put these together to form \\(\Phi_A: W(A) \to \mathbf A^N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
 
 I find these formulae a little hard to motivate. One thing to note, though, is that if \\(p=0\\) in \\(A\\), then the above map is simply \\((a_i)_{i=0}^{\infty} \mapsto (a_0,a_0^p,a_0^{p^2},\dots).\\). So \\(\Phi_A\\) should roughly turn pth powers into shifts. We'll actually find a lift of Frobenius \\(F\\) on \\(W(A)\\) such that \\(\Phi_A F = f_A \Phi_A\\) where \\(f_A\\) is a left shift.
 
-It'll be important to work out \(\Phi's\) image. By going inductively, we're basically interested in seeing what conditions we need to find \\(a_n\\) with \\(\Phi_{n}(a_0,\dots,a_n)=u_n\\).
+It'll be important to work out \\(\Phi's\\) image. By going inductively, we're basically interested in seeing what conditions we need to find \\(a_n\\) with \\(\Phi_{n}(a_0,\dots,a_n)=u_n\\).
 
 Note that \\(Phi_n(a_0,\dots,a_{n-1},X_n) =\Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p})) + p^n X_n\\) (*)
 
@@ -50,11 +50,11 @@ Note that \\(Phi_n(a_0,\dots,a_{n-1},X_n) =\Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p})) 
 
 _Proof_ From (*) we see that if \\(\(u_k)_{k=0}^{\infty}=\Phi_A(a)\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
 
-**Proposition** Suppose \(A,\sigma\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
+**Proposition** Suppose \\(A,\sigma\\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
 1) There is \\(a_n\\) with \\(u_n=\Phi_{n}(a_0,\dots,a_n)\\)
 2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n)
 
-Hence \(\Phi\)'s image is the set of sequences \\((u_n)_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
+Hence \\(\Phi\\)'s image is the set of sequences \\((u_n)_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
 
 _Proof_ Let's use the above observation. Existence of \\(a_n\\) is therefore equivalent to \\(u_n \equiv \Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}) \mod p^n\\). However, since each \\(a_i^p \equiv \sigma(a_i) \mod p \\) (by definition), \\(\Phi_{n-1}(a_0^p,\dots,a_{n-1^{p}}) \equiv \Phi_{n-1(\sigma(a_0),\dots,\sigma(a_{n-1}))}=\sigma_{n-1}(u_{n-1}) \mod p^n\\). So existence of \\(a_n\\) is equivalent to \\(u_n\equiv \sigma(u_{n-1}) \mod p^n \\), as claimed. \\(\square\\)
 
@@ -68,7 +68,7 @@ _Proof_: This is a clever use of functoriality and `universal cases'. Let \\(B:=
 
 Now \\(\Phi_B:W(B) \to B^\mathbf N\\) is injective and its image is a subring of \\(B^\mathbf N\\). Corestricting \\(\Phi_B\\) to its image, we see that \\(W(B)\\) actually has the addition, multiplicatio etc. transferred from \\(B^\mathbf N\\) via the bijection \\(\Phi_B\\), and so forms a ring itself.
 
-As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\). \(\square\\).
+As for \\(A\\) itself, all relevant identities follow from those in \\(W(B)\\). \\(\square\\).
 
 
 ### Frobenius and Verschiebung
