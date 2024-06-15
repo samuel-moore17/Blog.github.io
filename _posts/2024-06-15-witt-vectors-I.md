@@ -39,7 +39,7 @@ Let me now move onto a more general and related construction - the formation of 
 
 We begin with an important definition:
 
-**Definition 6** For each \\(n\ge 0\\), let \\(\Phi_n(X_0,\dots,X_n):=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}} \in \mathbf Z[X_0,\dots,X_n]\\). Slightly abusively, if \\(\mathbf a = (a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\), we will write \\(\Phi_n(\mathbf a)\\) for \\(Phi_n(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi: W(A) \to A^\mathbf N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
+**Definition 6** For each \\(n\ge 0\\), let \\(\Phi_n(X_0,\dots,X_n):=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}} \in \mathbf Z[X_0,\dots,X_n]\\). Slightly abusively, if \\(\mathbf a = (a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\\), we will write \\(\Phi_n(\mathbf a)\\) for \\(Phi_n(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi: W(A) \to A^\mathbf N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
 
 The ring structure on \\(W(A)\\) will be defined so as to turn \\(\Phi:W(A)\to A^\mathbf N\\) into a ring homomorphism; in fact it will be the unique such structure such that the multiplication and addition are given by polynomials.
 
@@ -81,5 +81,5 @@ We first want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\). We have \\(f
 
 We omit the proof as it is similar to previous arguments: reduce to polynomial rings and check that \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\).
 
-So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism of \\(W(A)\\) sending \\({(a_i)}_{i=0}^{\infty}\\) to \\((0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n\in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
+So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism of \\(W(A)\\) sending \\( {(a_i)}_{i=0}^{\infty} \\) to \\((0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n\in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
 
