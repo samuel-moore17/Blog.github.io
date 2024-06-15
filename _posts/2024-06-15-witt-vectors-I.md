@@ -81,5 +81,5 @@ We first want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\). We have \\(f
 
 We omit the proof as it is similar to previous arguments: reduce to polynomial rings and check that \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\).
 
-So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism \\(W(A)\\) sending \\((a_i)_{i=0}^{\infty}\\) to \\((0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n\in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
+So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism of \\(W(A)\\) sending \\({(a_i)}_{i=0}^{\infty}\\) to \\((0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n\in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
 
