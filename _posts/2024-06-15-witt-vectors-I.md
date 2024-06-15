@@ -4,7 +4,7 @@ title: "Witt Vectors - I"
 usemathjax: true
 ---
 
-Today I'd like to discuss a couple of things: Teichmüller lifts and (\\(p\\)-typical) Witt vectors (where \\(p\\) is some prime fixed for forever). In this post, I'll focus mostly on the _construction_ of the ring of Witt vectors \\(W(A)\\) associated to an arbitrary (commutative) ring \\(A\\) as well as its lift of Frobenius and `Verschiebung'. In a future post I hope to cover the various topologies on \\(W(A)\\) and specialise to `nice' cases where Witt vectors see the most use.
+Today I'd like to discuss a couple of things: Teichmüller lifts and (\\(p\\)-typical) Witt vectors (where \\(p\\) is some prime fixed for forever). In this post, I'll focus mostly on the _construction_ of the ring of Witt vectors \\(W(A)\\) associated to an arbitrary (commutative) ring \\(A\\) as well as its lift of Frobenius and 'Verschiebung'. In a future post I hope to cover the various topologies on \\(W(A)\\) and specialise to 'nice' cases where Witt vectors see the most use.
 
 
 ## Teichmüller lifts
@@ -14,8 +14,8 @@ Let us begin with something slightly less fancy. Let \\(O\\) be a complete DVR w
 **Proposition 1**: There exists a unique multiplicative section \\(\omega:k \to O\\) of the natural projection, called the Teichmüller lift.
 
 Let's see what we can deduce about \\(\omega\\) if it exists. An important observation is that \\(\omega\\) is any multiplicative section then \\(\omega(\lambda)= \omega(\lambda^{1/p^n})^{p^n}\\). This is actually enough to uniquely determine \\(\omega\\): any two representatives of \\(\lambda^{1/p^n}\\) differ by an element of \\(\mathfrak m\\), but once we take \\(p^n\\)th powers, this difference `shrinks'. More precisely:
-
-**Proposition 2**: Let \\(U_n=U_n(\lambda)\\) be the set \\(\\{x^{p^n} \mid x \in q^{-1}(\lambda^{1/p^n})\\}\\). Then \\(U_n\\) has diameter \\(\le \mathfrak m^n\\). 
+00
+**Proposition 2**: Let \\(U_n=U_n(\lambda)\\) be the set \\(\\{x^{p^n} \mid x \in q^{-1}(\lambda^{1/p^n})\\}\\). Then any two elements f \\(U_n\\) differ by an element of \\(\mathfrak m^n\\). 
 
 This follows immediately from the elementary
 
