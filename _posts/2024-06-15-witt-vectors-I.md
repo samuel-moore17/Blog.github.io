@@ -39,7 +39,7 @@ Let me now move onto a more general and related construction - the formation of 
 
 We begin with an important definition:
 
-**Definition 6** For each \\(n\ge 0\\), let \\(\Phi_n(X_0,\dots,X_n):=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}} \in \mathbf Z[X_0,\dots,X_n]\\). Slightly abusively, if \\(\mathbf a = (a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\\), we will write \\(\Phi_n(\mathbf a)\\) for \\(Phi_n(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi: W(A) \to A^\mathbf N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
+**Definition 6** For each \\(n\ge 0\\), let \\(\Phi_n(X_0,\dots,X_n):=\sum_{i=0}^{n}p^i X_{i}^{p^{n-i}} \in \mathbf Z[X_0,\dots,X_n]\\). Slightly abusively, if \\(\mathbf a = (a_0,\dots,a_n)\\) or some sequence \\((a_0,a_1,\dots)\\), we will write \\(\Phi_n(\mathbf a)\\) for \\(\Phi_n(a_0,\dots,a_n)\\). We can put these together to form \\(\Phi: W(A) \to A^\mathbf N; \mathbf a \mapsto (\Phi_i(\mathbf a))_{i=0}^{\infty}\\).
 
 The ring structure on \\(W(A)\\) will be defined so as to turn \\(\Phi:W(A)\to A^\mathbf N\\) into a ring homomorphism; in fact it will be the unique such structure such that the multiplication and addition are given by polynomials.
 
