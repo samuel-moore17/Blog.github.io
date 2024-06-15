@@ -57,7 +57,7 @@ _Proof_ From \\((*)\\) we see that if \\( {(u_{k})}=\Phi_A(\mathbf a) \\) then e
 
 2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n\\)
 
-Hence \\(\Phi\\)'s image is the set of sequences \\( {(u_n)}_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
+Hence \\(\Phi\\)'s image is the set of sequences \\( {(u_{n})}_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
 
 _Proof_ Let's use the above observation. Existence of \\(a_n\\) is therefore equivalent to \\(u_n \equiv \Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}) \mod p^n\\). However, since each \\(a_i^p \equiv \sigma(a_i) \mod p \\) (by definition), \\(\Phi_{n-1}(a_0^p,\dots,a_{n-1^{p}}) \equiv \Phi_{n-1}(\sigma(a_0),\dots,\sigma(a_{n-1}))=\sigma_{n-1}(u_{n-1}) \mod p^n\\). So existence of \\(a_n\\) is equivalent to \\(u_n\equiv \sigma(u_{n-1}) \mod p^n \\), as claimed. \\(\square\\)
 
@@ -81,5 +81,5 @@ We first want to endow \\(W(A)\\) with a lift of Frobenius \\(F\\). We have \\(f
 
 We omit the proof as it is similar to previous arguments: reduce to polynomial rings and check that \\(f_A\\) is a l.o.F. on \\(\Phi_A(A)\\).
 
-So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism of \\(W(A)\\) sending \\( \mathbf a \mapsto (0,a_0,a_1,\dots)\\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n \in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
+So the Frobenius corresponds to a left shift in \\(\Phi_A(A)\\), but there is also a group endomorphism of \\(W(A)\\) sending \\( \mathbf a \mapsto (0,a_0,a_1,\dots) \\). Of course this is not a ring endomorphism (e.g. it doesn't preserve the identity); to see it is a group endomorphism, note that \\(\Phi(F(\mathbf a))=(\Phi_n(0,a_0,\dots,a_{n-1}))_{n \in \mathbf N} = (p\Phi_{n-1}(a_0,\dots,a_{n-1}))_{n\in \mathbf N}= v_A(\Phi(\mathbf a)\\), where \\(v_A(\mathbf a)=(0,pa_0,pa_1,\dots)\\).
 
