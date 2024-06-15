@@ -49,7 +49,7 @@ Note that \\(\Phi_n(a_0,\dots,a_{n-1},X_n) =\Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}))
 
 **Proposition 7** \\(\Phi_A\\) is injective if \\(p\\) is not a zero divisor in \\(A\\).
 
-_Proof_ From \\(*\\) we see that if \\({(u_k)}_{k=0}^{\infty}=\Phi_A(a)\\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
+_Proof_ From \\(*\\) we see that if \\( {(u_k)}_{k=0}^{\infty}=\Phi_A(a) \\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
 
 **Proposition 8** Suppose \\(A,\sigma\\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
 
