@@ -49,7 +49,7 @@ Note that \\(\Phi_n(a_0,\dots,a_{n-1},X_n) =\Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}))
 
 **Proposition 7** \\(\Phi_A\\) is injective if \\(p\\) is not a zero divisor in \\(A\\).
 
-_Proof_ From (*) we see that if \\((u_k)_{k=0}^{\infty}=\Phi_A(a)\\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
+_Proof_ From \\(*\\) we see that if \\({(u_k)}_{k=0}^{\infty}=\Phi_A(a)\\) then each \\(a_n\\) is uniquely determined by \\(a_1,\dots,a_{k-1}\\). \\(\square\\).
 
 **Proposition 8** Suppose \\(A,\sigma\\) is a ring with a lift of Frobenius and put \\(u_{n-1}=\Phi_{n-1}(a_0,\dots,a_{n-1})\\). TFAE:
 
@@ -57,7 +57,7 @@ _Proof_ From (*) we see that if \\((u_k)_{k=0}^{\infty}=\Phi_A(a)\\) then each \
 
 2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n\\)
 
-Hence \\(\Phi\\)'s image is the set of sequences \\((u_n)_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
+Hence \\(\Phi\\)'s image is the set of sequences \\( {(u_n)}_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
 
 _Proof_ Let's use the above observation. Existence of \\(a_n\\) is therefore equivalent to \\(u_n \equiv \Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}) \mod p^n\\). However, since each \\(a_i^p \equiv \sigma(a_i) \mod p \\) (by definition), \\(\Phi_{n-1}(a_0^p,\dots,a_{n-1^{p}}) \equiv \Phi_{n-1}(\sigma(a_0),\dots,\sigma(a_{n-1}))=\sigma_{n-1}(u_{n-1}) \mod p^n\\). So existence of \\(a_n\\) is equivalent to \\(u_n\equiv \sigma(u_{n-1}) \mod p^n \\), as claimed. \\(\square\\)
 
