@@ -57,7 +57,7 @@ _Proof_ From \\((*)\\) we see that if \\( {(u_{k})}=\Phi_A(\mathbf a) \\) then e
 
 2) \\(u_n \equiv \sigma(u_{n-1}) \mod p^n\\)
 
-Hence \\(\Phi\\)'s image is the set of sequences \\( {(u_{n})}_{n \in \mathbf N}\\) where \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
+Hence \\(\Phi\\) has as its image the set of sequences \\( { (u_{n}) }_{n \in \mathbf N}\\) such that \\(\sigma(u_n) \equiv u_{n+1} \mod p^{n+1}\\).
 
 _Proof_ Let's use the above observation. Existence of \\(a_n\\) is therefore equivalent to \\(u_n \equiv \Phi_{n-1}(a_0^p,\dots,a_{n-1}^{p}) \mod p^n\\). However, since each \\(a_i^p \equiv \sigma(a_i) \mod p \\) (by definition), \\(\Phi_{n-1}(a_0^p,\dots,a_{n-1^{p}}) \equiv \Phi_{n-1}(\sigma(a_0),\dots,\sigma(a_{n-1}))=\sigma_{n-1}(u_{n-1}) \mod p^n\\). So existence of \\(a_n\\) is equivalent to \\(u_n\equiv \sigma(u_{n-1}) \mod p^n \\), as claimed. \\(\square\\)
 
