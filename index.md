@@ -4,4 +4,4 @@ layout: home
 
 I am a DPhil student at the University of Oxford in Mathematics, supervised by Lukas Brantner. I'm mostly interested in homotopy theory and algebraic geometry.
 
-![Image](/assets/images/samhomepage.jpg)
+<img src="/assets/images/samhomepage.jpg" alt="photo of me" width="5"/>
