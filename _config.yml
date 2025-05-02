@@ -1,11 +1,10 @@
-title: Sam's Blog
+title: Samuel Moore
 author:
-  name: Sam Moore
+  name: Samuel Moore
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  A Maths blog for talking about random things I've thought about.
+description: DPhil student in homotopy theory and algebraic geometry
 
 # Build settings
 
@@ -26,7 +25,7 @@ plugins:
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
-  - about.md
+  - Fgauges.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false

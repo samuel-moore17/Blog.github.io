@@ -1,9 +1,10 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
 ---
+
+
+<img src = "assets/images/samhomepage.jpg" width="200px" align = "right" alt = "photo of me" padding = "10"> 
+
+I am a DPhil student at the University of Oxford in Mathematics, supervised by Lukas Brantner. 
+
+I'm mostly interested in homotopy theory and algebraic geometry.
