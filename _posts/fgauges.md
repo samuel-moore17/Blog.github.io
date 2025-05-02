@@ -14,6 +14,22 @@ The plan for future weeks is as follows:
 
 # Week 2 - Introductory talk _(Sam)_.
 
-I will discuss...
+Background to Bhatt's lecture notes: some remarks on \\((p\\))-adic Hodge theory; the definitions of prisms and relative prismatic cohomology; an introduction to work of Drinfeld and Bhatt-Lurie on the `stacky' perspective and absolute prismatic cohomology.
 
-# Week 3 - 
+# Week 3 - Algebraic de Rham Cohomology, I 
+
+Roughly going over sections 2.1-2.4.
+
+# Week 4 - Algebraic de Rham Cohomology, II _(Arun)_
+
+Covering the remainder of the chapter.
+
+# Week 5 - Crystalline cohomology, the Nygaard filtration, and Mazur's theorem
+
+# Week 6 - Syntomic cohomology in characteristic p and duality
+
+# Week 7 - Filtered prismatization in mixed characteristic
+
+# Week 8 - Syntomification and duality.
+
+# Week 8 - 
