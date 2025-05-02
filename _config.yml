@@ -1,11 +1,11 @@
-title: Sam's Blog
+title: Samuel Moore
 author:
-  name: Sam Moore
+  name: Samuel Moore
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  A Maths blog for talking about random things I've thought about.
+DPhil student in homotopy theory and algebraic geometry.
 
 # Build settings
 
