@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Prismatic F-gauges reading seminar"
 usemathjax: true
 ---
